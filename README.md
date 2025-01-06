@@ -89,4 +89,4 @@ endmodule
 
 **RESULTS**
 
-Program for JK flipflops was verified in quartus using Verilog programming.
+Designed and verified the implememtation of jk flipflop circuit and truthtable in quartus in using verilog programming successfully .
