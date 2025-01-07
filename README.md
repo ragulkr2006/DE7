@@ -57,26 +57,8 @@ Verify the Results. Compare the simulated results with the truth table for a J
 
 
 ## Program:
-JK FlipFlop
-```
-module jk(j, k, clk, rst, q);
-  input j, k, clk, rst;
-  output reg q;
+![WhatsApp Image 2025-01-07 at 08 28 28_ed7f9a11](https://github.com/user-attachments/assets/db682828-ccd5-4ca0-a535-17da6595ea27)
 
-  always @(posedge clk or posedge rst) begin
-    if (rst)
-      q <= 0;
-    else if (j == 0 && k == 0)
-      q <= q;
-    else if (j == 0 && k == 1)
-      q <= 0;
-    else if (j == 1 && k == 0)
-      q <= 1;
-    else if (j == 1 && k == 1)
-      q <= ~q;
-  end
-endmodule
-```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
